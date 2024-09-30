@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Page</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="form" class="form-section">
+            <h2>User Input Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+        
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br><br>
+        
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="india">India</option>
+                </select><br><br>
+        
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+        
+                <label for="file">Upload your profile picture:</label>
+                <input type="file" id="file" name="file"><br><br>
+        
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the terms and conditions</label><br><br>
+        
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <script src="form.js"></script>
+        <footer>
+            <p>&copy; My Web App | All Rights Preserved</p>
+            <p>Done By CIT-227-013/2021</p>
+        </footer>
+    </body>
+</html>
